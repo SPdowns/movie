@@ -18,17 +18,19 @@
           <label for="movies">Select A Movie</label>
 
           <select name="movies" id="movies">
+            <option disabled selected value> -- select a movie -- </option>
             <option value="stella">Stella</option>
-            <option value="scoobs">Scoobs</option>
             <option value="cats">Cats</option>
+            <option value="scoobs">Scoobs</option>
             <option value="parasite">Parasite</option>
           </select>
         </form>
-        <div id="output-times" class="hidden">
-          <button>10:00am</button>
-          <button>12:00pm</button>
-          <button></button>
-          <button></button>
+        <div id="output-stella">
+          <button class="button" id="ten" type="button">12:00PM</button>
+          <button class="button" id="noon" type="button">10:00AM</button>
+          <button class="button" id="two" type="button">2:00PM</button>
+          <button class="button" id="four" type="button">4:00PM</button>
+          <button class="button" id="six" type="button">6:00PM</button>
         </div>
       </div>
     </body>

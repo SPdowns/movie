@@ -5,7 +5,11 @@ function Ticket(movieName, timeOfDay, age) {
 }
 
 $(document).ready(function() {
-  
-
+  $("#movies").change(function() {
+    let selectedMovie = $("#movies").val();
+    if(selectedMovie === "stella") {
+      $("#output-stella").show();
+    }
+  });
 
 });
