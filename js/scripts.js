@@ -1,13 +1,11 @@
-function Movie(name, isFirstRelease) {
-  this.name = name,
-  this.timesAvailable = [],
-  this.isFirstRelease = isFirstRelease
+function Ticket(movieName, timeOfDay, age) {
+  this.movieName = movieName,
+  this.timeOfDay = timeOfDay,
+  this.age = age
 }
 
-Movie.prototype.addMovieTime = function(time) {
-  this.timesAvailable.push(time);
-}
+$(document).ready(function() {
+  
 
-let stella = new Movie("stella", false);
-stella.addMovieTime("12pm");
-stella.addMovieTime("1pm");
+
+});
